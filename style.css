@@ -1,0 +1,120 @@
+body{
+    background-color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+.about{
+    background-image: url(/me.jpg);
+    height: 765px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 47%;
+    margin-bottom: 150px;
+}
+
+.about__header{
+    padding-top: 33px;
+    margin-bottom: 252px;
+
+}
+.nav__logo{
+    display: inline-block;
+    margin-right:698px;
+    background-image: url(/logo.jpg);
+    height: 39px;
+    width: 130px;
+    border-radius: 35%;
+    color: rgba(27, 255, 7, 1);
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+}
+.nav{
+    display: inline-block;
+}
+.nav__link{
+    margin-right: 50px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: -0.54px;
+    text-transform: lowercase;
+}
+.nav__link:hover{
+    text-decoration: underline;
+    color: #1BFF07;}
+.about__text{
+    width: 430px;
+    height: 103px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    color: #FFF;
+}
+.about__me{
+    width: 919px;
+    height: 205px;
+    color: #1BFF07;
+font-size: 80px;
+line-height: 70px;
+letter-spacing: -2.4px;
+}
+
+.projects__title{
+    color: #FFF;
+    font-size: 55px;
+    letter-spacing: -1.65px;
+    margin-bottom: 40px;
+}
+.projects__my{
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(/metrika.jpg), lightgray 0px -11.324px / 100% 156.818% no-repeat;
+    width: 1330px;
+    height: 600px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+}
+.projects__name{
+    position: absolute;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+    width: 401px;
+    height: 46px;
+    left: 50px;
+    bottom: 94px;
+    color: #000000;
+}
+.projects__work{
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    color: #000000;
+    width: 596px;
+    height: 39px;
+    left: 50px;
+    bottom: 50px;
+}
+.projects__btn {
+    margin-top: 25px;
+    display: block;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 153px;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+}
+.projects__btn:hover{
+    background: #000000;
+    color: #1BFF07;
+    border-radius: 10px;
+    border: 1px solid #1BFF07;
+}
