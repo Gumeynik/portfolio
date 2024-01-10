@@ -98,7 +98,7 @@ letter-spacing: -2.4px;
     bottom: 50px;
 }
 .projects__btn {
-    margin-top: 25px;
+    margin-top: 80px;
     display: block;
     width: 582px;
     height: 153px;
@@ -117,4 +117,61 @@ letter-spacing: -2.4px;
     color: #1BFF07;
     border-radius: 10px;
     border: 1px solid #1BFF07;
+}
+.projects{
+    margin-bottom: 150px;
+}
+.competencies__title{
+    color: #FFF;
+font-size: 55px;
+letter-spacing: -1.65px;
+margin-bottom: 104px;
+}
+.competencies__HTML{
+    position: relative;
+    color: #1BFF07;
+font-size: 35px;
+letter-spacing: -1.05px;
+margin-bottom: 15px;
+}
+.competencies__HTML::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 58px;
+    width: 45px;
+    height: 45px;
+    background-image: url(/htmlicon.jpg);
+}
+.competencies__text{
+    color: #FFF;
+    width: 778px;
+font-size: 22px;
+letter-spacing: -0.66px;
+}
+.competencies{
+    margin-bottom: 150px;
+}
+.tasks__title{
+    width: 403px;
+    color: #FFF;
+font-size: 35px;
+letter-spacing: -1.05px;
+margin-bottom: 74px;
+}
+.layout__img{
+    margin: 0 auto;
+    width: 1330px;
+    margin-bottom: 40px;
+}
+.layout__title{
+    color: #1BFF07;
+font-size: 55px;
+letter-spacing: -1.65px;
+margin-bottom: 15px;
+}
+.layout__text{
+    width: 749px;
+    color: #FFF;
+font-size: 22px;
 }
