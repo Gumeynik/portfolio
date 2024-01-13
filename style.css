@@ -162,16 +162,66 @@ margin-bottom: 74px;
 .layout__img{
     margin: 0 auto;
     width: 1330px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .layout__title{
     color: #1BFF07;
 font-size: 55px;
 letter-spacing: -1.65px;
 margin-bottom: 15px;
+padding-top: 40px;
+margin-left: 40px;
 }
 .layout__text{
     width: 749px;
     color: #FFF;
-font-size: 22px;
+    font-size: 22px;
+    margin-left: 40px;
+}
+.layout__background{
+    width: 1330px;
+height: 283px;
+flex-shrink: 0;
+border-radius: 30px;
+background-color: #191C19;
+}
+.tasks{
+    padding-bottom: 150px;
+}
+.contacts__wrapper{
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background: #191C19;
+    margin: 0 auto;
+
+}
+.contacts__title{
+position: absolute;
+color: #FFF;
+font-size: 35px;
+line-height: 60px;
+letter-spacing: -1.05px;
+padding-left: 255px;
+padding-top: 320px;
+}
+.contacts__network{
+    color: #FFF;
+font-size: 60px;
+line-height: 60px;
+letter-spacing: -1.8px;
+}
+.contacts__link{
+padding-top: 408px;
+padding-left: 255px;
+width: 310px;
+}
+.contacts__img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    align:right;
+}
+.contacts{
+    padding-bottom: 150px;
 }
