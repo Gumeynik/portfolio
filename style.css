@@ -225,3 +225,24 @@ width: 310px;
 .contacts{
     padding-bottom: 150px;
 }
+.footer{
+    background-color: #FFF;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.footer__title{
+    padding-top: 76px;
+    margin-bottom: 66px;
+    padding-left: 255px;
+    color: #000;
+font-size: 22px;
+letter-spacing: -0.66px;
+}
+.footer__text{
+    padding-bottom: 30px;
+    padding-left: 255px;
+color: #000;
+font-size: 20px;
+letter-spacing: -0.6px;
+opacity: 0.5;
+}
